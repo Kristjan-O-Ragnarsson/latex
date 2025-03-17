@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc} % Support Icelandic Characters
+\usepackage[utf8]{inputenc} % Support Icelandic Characters
+\usepackage[english]{isodate}
+\usepackage{lmodern}
+
+
+% Thesis inclusion
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pifont}
+
+% ML - SUTD
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% iUROP - SUTD
+\usepackage{multicol}
+
+% T-631-SOE2 - RU
+
+\usepackage{xcolor}
+
+
+% BIBLATEX
+
+
+\usepackage[style=ieee,citestyle=numeric-comp,backend=biber]{biblatex}
+\addbibresource{bib/references.bib}
+
+\newcommand{\setcoursecode}[1]{\def\coursecode{#1}}
+\newcommand{\setcoursename}[1]{\def\coursename{#1}}
+\newcommand{\setassignmentname}[1]{\def\assignmentname{#1}}
+
+\usepackage{authblk}
+
+\title{\coursecode - \coursename\\ \assignmentname}
+
+\cleanlookdateon
